@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Spritle-Task/static/css/main.59775ee8.chunk.css",
+    "main.js": "/Spritle-Task/static/js/main.123c6809.chunk.js",
+    "main.js.map": "/Spritle-Task/static/js/main.123c6809.chunk.js.map",
+    "runtime-main.js": "/Spritle-Task/static/js/runtime-main.9e1dd687.js",
+    "runtime-main.js.map": "/Spritle-Task/static/js/runtime-main.9e1dd687.js.map",
+    "static/js/2.4e9fb685.chunk.js": "/Spritle-Task/static/js/2.4e9fb685.chunk.js",
+    "static/js/2.4e9fb685.chunk.js.map": "/Spritle-Task/static/js/2.4e9fb685.chunk.js.map",
+    "index.html": "/Spritle-Task/index.html",
+    "static/css/main.59775ee8.chunk.css.map": "/Spritle-Task/static/css/main.59775ee8.chunk.css.map",
+    "static/js/2.4e9fb685.chunk.js.LICENSE.txt": "/Spritle-Task/static/js/2.4e9fb685.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e1dd687.js",
+    "static/js/2.4e9fb685.chunk.js",
+    "static/css/main.59775ee8.chunk.css",
+    "static/js/main.123c6809.chunk.js"
+  ]
+}
