@@ -18,12 +18,16 @@ const List = ({ retrievedData }) => {
       <Total total={totalAmount()} />
       <ul className='list-ul'>
         {retrievedData &&
-          retrievedData.map((item, index) => (
-            <li key={index} className='list-li'>
-              <p>{item.date}</p> - <p>₹ {item.amount}</p> -{' '}
-              <p>{item.category}</p>
-            </li>
-          ))}
+          retrievedData.map((item, index) => {
+            if (item.amount >= 1) {
+              return (
+                <li key={index} className='list-li'>
+                  <p>{item.date}</p> - <p>₹ {item.amount}</p> -{' '}
+                  <p>{item.category}</p>
+                </li>
+              );
+            }
+          })}
       </ul>
     </div>
   );

@@ -34,6 +34,8 @@ const Input = () => {
       setItems(list);
     }
   };
+
+  
   return (
     <React.Fragment>
       <div className='main'>
@@ -66,6 +68,16 @@ const Input = () => {
               value='REMOVE'
               onClick={(e) => {
                 setData({ ...data, category: e.target.name });
+              }}
+            />
+            <input
+              id='clear'
+              type='button'
+              name='Clear'
+              value='CLEAR ALL'
+              onClick={(e) => {
+                localStorage.clear();
+                setData({ amount: 0, category: '', date: '' });
               }}
             />
           </div>

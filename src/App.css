@@ -31,7 +31,8 @@
 }
 
 #add,
-#remove {
+#remove,
+#clear {
   border-radius: 10px;
   padding: 0.8rem;
   outline: none;
@@ -48,6 +49,11 @@
 
 }
 
+#clear {
+  background-color: rgb(20, 41, 233);
+  color: aliceblue;
+}
+
 .button {
   display: flex;
   justify-content: center;
@@ -57,7 +63,7 @@
 
 
 .list-main {
-  
+
   padding-bottom: 2rem;
   width: 100%;
   min-height: 70vh;
