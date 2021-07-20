@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.main {
+  background-color: rgb(66, 73, 73);
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main form {
+  width: 50%;
+}
+
+
+#text {
+  width: 100%;
+  height: 3rem;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  padding: 0.3rem 1rem;
+
+}
+
+#add,
+#remove {
+  border-radius: 10px;
+  padding: 0.8rem;
+  outline: none;
+  border: none;
+  background-color: aquamarine;
+  cursor: pointer;
+  font-weight: 800;
+  margin-left: 0.8rem;
+}
+
+#remove {
+  background-color: rgb(233, 105, 20);
+  color: aliceblue;
+
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+
+.list-main {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+  min-height: 70vh;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  list-style: decimal;
+  padding: 0.5rem;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  font-size: larger;
+}
+
+.list-li {
+  display: flex;
+}
+
+.list-li p {
+  margin: 0.3rem;
+}
+
+.total {
+  width: 100%;
+  height: 5rem;
+  background-color: rgb(123, 168, 50);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.total p {
+  margin-top: 0.2rem;
+  font-size: larger;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+}
+
+form h1 {
+  margin: 1.2rem;
+  color: white;
+  text-align: center;
+}
